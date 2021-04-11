@@ -1,2 +1,2 @@
-require('../src/documentation/intro.stories');
-require('../src/documentation/install.stories');
+// require('../src/documentation/intro.stories');
+// require('../src/documentation/install.stories');
