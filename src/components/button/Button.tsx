@@ -1,8 +1,11 @@
 import React from 'react';
+import { ButtonTypes } from './Button.types';
 
-const Button: React.FC = () => {
+const Button: React.FC<ButtonTypes> = (props: ButtonTypes) => {
+const {className } = props;
+
     return (
-        <button />
+        <button className={className}>test</button>
     )
 }
 

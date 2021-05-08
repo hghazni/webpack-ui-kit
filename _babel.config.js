@@ -1,8 +1,3 @@
-/**
- * @param selectMode {SelectMode}
- * @param selectTarget {SelectTarget}
- * @returns {*}
- */
  module.exports.configureBabel = (selectMode, selectTarget) => {
     const presetEnvConfig = selectTarget({
         legacy: {
@@ -45,8 +40,6 @@
         '@babel/plugin-transform-modules-commonjs',
         '@babel/plugin-transform-react-jsx',
         "@babel/plugin-transform-runtime",
-        'graphql-tag',
-        'import-graphql',
     ];
 
     // define default babel options
